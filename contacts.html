@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* fixing the background on the homepage */
+        body{background-image: url(./night.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;}
+        /* removing the bullets and the default margins and padding from the navbar elements */
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            /* fixing the navbar */
+            width: 20%;
+            height: 50%;
+            position: fixed;
+            border-radius: 3px;
+            overflow: auto;
+            background: rgba(117, 89, 47, 0.7);
+        }
+        /* removing the underlines from the navbar links */
+        li a{text-decoration: none;
+        color: black;
+        display: block;
+        padding: 8px 16px;
+        text-align: center;}
+        /* active or current navlink */
+        .active{background-color: tomato;
+        color: white;}
+        /* changing the color of the background when the mouse hovers */
+        li a:hover{background-color: gray;
+        opacity: 0.5;
+        color: white;
+        }
+        /* pushing the pushright to the right */
+        .pushright{margin-left: 20%;
+        background: rgba(117, 89, 47, 0.7);
+        float:right;
+        padding: 1px 16px;
+        height: 1000px;
+        width: 73%;}
+        /* creating a background with words part1 */
+        .heroimage{background: url("lobby.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        border-radius: 5px;}
+        #logo{font-size: 360%;
+        font-weight: lighter;
+        color: darkturquoise;}
+        .herotext{text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family:'Lobster', cursive ;}
+        .icons{text-align: center;}
+        .fa{padding: 20px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;}
+        .fa-facebook{background: #3b5998;
+        color: white;}
+        .fa-twitter{background: #55ACECEE;
+        color: white;}
+        .fa-instagram{background: #125688;
+        color: white;}
+        .fa-linkedin{background: #3b5998;
+        color: white;}
+    </style>
+</head>
+<body>
+    <div class="nav">
+<ul>
+    <li><a href="home.html" >Home</a></li>
+    <li><a href="contacts.html" class="active">Contacts</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="https://www.google.com/travel/hotels/Diani%20Beach/entity/CgsI17KQ69mSq4q_ARAB/location?g2lb=2502548%2C4258168%2C4270442%2C4306835%2C4317915%2C4322823%2C4328159%2C4371335%2C4381263%2C4384468%2C4395848%2C4401769%2C4403882%2C4412669%2C4413451%2C4414389%2C4416581%2C4421968%2C4270859%2C4284970%2C4291517%2C4412693&hl=en&gl=ke&un=1&ap=aAE&q=diani%20beach%20hotel%20mombasa%20map&rp=EOCKwuLI1KWefBDdp-eRm_Hj3BUQ17KQ69mSq4q_ARCG4sTr0MvM9Wo4AkAASAKiAQtEaWFuaSBCZWFjaMABAw&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&hrf=CgYI6IQBEAAiA0tFUyoWCgcI5A8QCRgFEgcI5A8QCRgGGAEoAFgBkgECIAE"
+            target="_blank">Location</a></li>
+</ul>
+    </div>
+    <div class="pushright">
+        <div class="heroimage">
+            <div class="herotext">
+<h1 id="logo" style="text-shadow: 3px 3px 5px;">The Oasis</h1>
+<h3 style="font-family: 'Times New Roman', Times, serif;">Welcome to the world's capital of luxury</h3>
+            </div>
+
+        </div>
+
+        <h2 style="text-align: center; text-shadow: 2px 2px 5px black;">Contact Us</h2>
+        <address style="text-align: center;">
+            write us at P.O Box 00100 <br>
+            Malindi, westport ave. <br>
+            theoasis@hotel.org <br>
+            (+254)756-6748 <br>
+            Kenya.
+        </address>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 style="text-align: center; text-shadow: 2px 2px 5px black;">Social Media</h2>
+        <div class="icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <p id="center">copyright&copy;2020</p>
+        </div>
+    </div>
+</body>
+</html>
